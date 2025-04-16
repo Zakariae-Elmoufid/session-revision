@@ -73,7 +73,7 @@ class Voiture extends Vehicule implements ReservableInterface  {
     
     
     public function ReservableInterface($client,  $dateDebut,  $nbJours){
-              new Reservation($this->getType(),$client, $dateDebut,$nbJours,$status = "");
+          new Reservation($this->getType(),$client, $dateDebut,$nbJours,$status = "");
 
     }
     
