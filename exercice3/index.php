@@ -15,7 +15,7 @@ $systemeRendezVous = new SystemeRendezVous();
 $systemeRendezVous->ajouterMedecin($doctor1);
 $systemeRendezVous->ajouterPatient($patient1);
 
-$systemeRendezVous->prendreRendezVous(1,1,"23\12\2025","12:20");
+$systemeRendezVous->prendreRendezVous(1,1,"23/12/2025","12:20");
 $systemeRendezVous->afficherRendezVous();
 
 

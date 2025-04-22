@@ -45,10 +45,10 @@ class  SystemeRendezVous {
                 echo "cette rendezVous remple entre d'autre date et heure ";
                 return;
             }
-           $nouveauRV =  new RendezVous($medecin,$patient,$date,$heure);
-           $this->rendezvous[] = $nouveauRV;
-           echo "Rendez-vous pris avec succès !\n";
         }  
+        $nouveauRV =  new RendezVous($medecin,$patient,$date,$heure);
+        $this->rendezvous[] = $nouveauRV;
+        echo "Rendez-vous pris avec succès !\n";
 
 
     }

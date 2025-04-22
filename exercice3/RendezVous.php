@@ -19,7 +19,7 @@ class RendezVous {
     }
 
     public function getMedecin(){
-        return $this->medecine;
+        return $this->medecin;
     }
 
     public function getPatient(){
